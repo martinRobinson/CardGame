@@ -1,6 +1,6 @@
 package ie.lyit.comp.cardgame;
 
-public enum rank {
+public enum Rank {
 	ACE,
 	TWO,
 	THREE,

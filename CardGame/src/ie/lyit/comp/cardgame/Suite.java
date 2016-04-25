@@ -1,5 +1,5 @@
 package ie.lyit.comp.cardgame;
 
-public enum suite {
+public enum Suite {
 	SPADES, HEART, DIAMOND, CLUBS
 }
