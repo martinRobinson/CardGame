@@ -6,7 +6,9 @@ public class card {
 	private Suite suite;
 	private Rank rank;
 	
-	
+	public card(){
+		
+	}
 	public card(ie.lyit.comp.cardgame.Suite suite, ie.lyit.comp.cardgame.Rank rank) {
 		super();
 		this.suite = suite;
