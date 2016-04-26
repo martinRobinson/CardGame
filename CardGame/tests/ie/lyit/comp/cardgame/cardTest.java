@@ -1,6 +1,6 @@
 package ie.lyit.comp.cardgame;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -9,11 +9,13 @@ public class cardTest extends card {
 	
 	private card testCard;
 	private card testCard2;
+	private card testCard3;
 	
 	@Before
 	public void setUp(){
 		testCard = new card(Suite.SPADES, Rank.ACE);
 		testCard2 = new card(Suite.HEART, Rank.ACE);
+		testCard3 = new card(Suite.SPADES, Rank.ACE);
 	}
 
 	@Test
@@ -34,5 +36,10 @@ public class cardTest extends card {
 		int testCardHashCode = testCard2.hashCode();
 		System.out.println(testCardHashCode);
 		assertEquals(13, testCardHashCode);
+	}
+	
+	@Test
+	public void testEquals() {
+		assert(testCard.equals(testCard3));	
 	}
 }

@@ -22,7 +22,13 @@ public class deckTest {
 	public void testDrawKnownCard() {
 		card testCard = testDeck.drawNextCard();
 		String result = testCard.toString();
-		System.out.println(result);
 		assertEquals(result, "card [suite=CLUBS, rank=KING]");
+	}
+	
+	@Test
+	public void testDrawnKnownCardAtPosition() {
+		card testCard = testDeck.drawCardAtPosition(10);
+		String result = testCard.toString();
+		assertEquals(result,"card [suite=SPADES, rank=JACK]" );
 	}
 }
