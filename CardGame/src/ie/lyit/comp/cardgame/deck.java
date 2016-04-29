@@ -22,7 +22,7 @@ public class deck {
 
 	public void printAllCards() {
 		for (card card : deck) {
-			System.out.println(card.toString() + " " + card.hashCode());
+			System.out.println(card.toString() + " " + card.getRank());
 		}
 	}
 	
