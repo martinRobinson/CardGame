@@ -7,8 +7,8 @@ public class cardGameTester {
 		deck myDeck = new deck();
 		myDeck.printAllCards();
 		myDeck.shuffle();
-		card aCard = myDeck.drawCardAtPosition(10);
-		System.out.println("Card at position 10 " + aCard.toString());
+		card aCard = myDeck.drawCardAtPosition(12);
+		System.out.println("Card at position 12 " + aCard.toString());
 
 	}
 
