@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="CardGame/src"/>
 	<classpathentry kind="src" path="CardGame/tests"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/martin/git/CardGame/libs/junit.jar"/>
+	<classpathentry kind="lib" path="/home/martin/git/CardGame/libs/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
