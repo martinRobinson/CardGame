@@ -1,2 +1,2 @@
 language: java
-script: ant deps
+script: ant main
