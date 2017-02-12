@@ -42,6 +42,8 @@ jacocoTestReport {
     }
 }
 
+check.dependsOn jacocoTestReport
+
 sourceSets {
     test {
         java {
