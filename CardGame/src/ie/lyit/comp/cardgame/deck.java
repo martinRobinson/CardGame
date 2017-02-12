@@ -35,7 +35,6 @@ public class deck {
 
 	@Override
 	public String toString() {
-
 		return "deck [deck=" + deck + "]";
 	}
 
