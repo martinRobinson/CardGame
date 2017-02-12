@@ -10,7 +10,10 @@
 /*
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+apply plugin: 'jacoco'
+
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 
 // In this section you declare where to find the dependencies of your project
@@ -30,6 +33,13 @@ dependencies {
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.12'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
 }
 
 sourceSets {
