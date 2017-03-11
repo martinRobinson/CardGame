@@ -33,6 +33,13 @@ public class deckTest {
 	}
 
 	@Test
+	public void testDrawnKnownCardAtPosition2() {
+		card testCard = testDeck.drawCardAtPosition(26);
+		String result = testCard.toString();
+		assertEquals(result, "card [suite=DIAMONDS, rank=ACE]");
+	}
+
+	@Test
 	public void testDeckIsEmpty() {
 		testDeck.drawAllRemainingCards();
 		assertEquals(0, testDeck.getCardCount());
