@@ -31,12 +31,12 @@ public class deckTest {
 		String result = testCard.toString();
 		assertEquals(result, "card [suite=SPADES, rank=JACK]");
 	}
-	
+
 	@Test
 	public void testDrawnKnownCardAtPosition2() {
 		card testCard = testDeck.drawCardAtPosition(26);
 		String result = testCard.toString();
-		assertEquals(result, "card [suite=SPADES, rank=JACK]");
+		assertEquals(result, "card [suite=DIAMONDS, rank=ACE]");
 	}
 
 	@Test
