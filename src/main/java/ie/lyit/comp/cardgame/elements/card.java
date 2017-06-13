@@ -1,4 +1,7 @@
-package ie.lyit.comp.cardgame;
+package ie.lyit.comp.cardgame.elements;
+
+import ie.lyit.comp.cardgame.Rank;
+import ie.lyit.comp.cardgame.Suite;
 
 public class card implements Comparable <card>{
 	

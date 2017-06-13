@@ -1,8 +1,11 @@
-package ie.lyit.comp.cardgame;
+package ie.lyit.comp.cardgame.elements;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import ie.lyit.comp.cardgame.Rank;
+import ie.lyit.comp.cardgame.Suite;
 
 public class deck {
 	int cardsInDeck = 0;

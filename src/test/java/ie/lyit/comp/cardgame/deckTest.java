@@ -5,6 +5,9 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
+import ie.lyit.comp.cardgame.elements.card;
+import ie.lyit.comp.cardgame.elements.deck;
+
 public class deckTest {
 	deck testDeck;
 

@@ -1,5 +1,8 @@
 package ie.lyit.comp.cardgame;
 
+import ie.lyit.comp.cardgame.elements.card;
+import ie.lyit.comp.cardgame.elements.deck;
+
 public class cardGameTester {
 
 	public static void main(String[] args) {

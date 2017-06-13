@@ -9,6 +9,8 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
+import ie.lyit.comp.cardgame.elements.card;
+
 public class cardTest extends card {
 	
 	private card AceOfSpadesTestCard1;
