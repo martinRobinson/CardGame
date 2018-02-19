@@ -27,6 +27,10 @@ public class cardTest extends card {
 	}
 
 	@Test
+	public void testCardHasExistence() {
+		assertTrue(AceOfSpadesTestCard1.equals(AceOfSpadesTestCard1));
+	}
+	@Test
 	public void testToString() {
 		String result = AceOfSpadesTestCard1.toString();
 		assertEquals(result, "card [suite=SPADES, rank=ACE]");
@@ -85,4 +89,6 @@ public class cardTest extends card {
 		String cardString = AceOfHeartsTestCard.toString();
 		assertThat(cardString, containsString("HEARTS"));
 	}
+	
+	
 }
